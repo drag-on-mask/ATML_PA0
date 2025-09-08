@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+#I tried
+
 class VAE(nn.Module):
     def __init__(self, latent_dim=20):
         super(VAE, self).__init__()
